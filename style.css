@@ -1,0 +1,153 @@
+/*
+Theme Name: Houzez Child
+Theme URI: http://www.favethemes.com/
+Author: Favethemes
+Author URI: http://www.favethemes.com/
+Description: Houzez is a premium WordPress theme for real estate agents where modern aesthetics are combined with tasteful simplicity, and where the ease of use is achieved without compromise in your ability to customise the design. Whether you are a real estate agent looking to build a website for your company or a web developer seeking a perfect WordPress theme for your next project, you are certain to appreciate the numerous features and benefits that our theme provides.
+Version: 1.0
+Tags: white, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, post-formats, theme-options, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: houzez
+Template: houzez
+*/
+
+@import url("../houzez/style.css");
+
+/* Your CSS code goes here
+-------------------------------------- */
+
+/* code c7b70824-8c2a-4eec-a2e6-4eeb04e84ebe */
+.img-banner-v2 {
+  max-height: 661px;
+  object-fit: cover;
+  height: 100%;
+}
+.banner-wrap-v2 {
+  position: relative;
+}
+.poperty-media-wrapv2 {
+  position: absolute;
+  bottom: 30px;
+  left: 25px;
+}
+.poperty-media-wrapv2 h2 {
+  text-transform: none;
+  max-width: 27ch;
+  font-size: 2.8rem;
+  line-height: 120%;
+  color: white;
+}
+.property-details-v2 {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 8rem 4rem;
+}
+.property-info-v2 {
+  grid-column-gap: 4em;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  display: grid;
+  position: relative;
+}
+.property_details {
+  max-width: 928px;
+  width: 100%;
+}
+.listing_grid {
+  grid-column-gap: 2.5em;
+  grid-row-gap: 1.5em;
+  flex-wrap: wrap;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 2em;
+  display: grid;
+  list-style: none;
+  padding-left: 0px !important;
+}
+.listing_grid li h2 {
+  color: #c1c1c1;
+  text-transform: uppercase;
+  font-family: Poppins, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.listing_grid li h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.property-description {
+  margin-top: 85px;
+}
+.property-description h2 {
+  text-transform: none;
+  font-size: 1.5rem;
+  line-height: 120%;
+}
+.property-description .content-dscription {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 150%;
+  margin-top: 20px;
+}
+.info-title_wrapper {
+  grid-column-gap: 10px;
+  align-items: center;
+  display: flex;
+}
+.info_title {
+  color: #c1c1c1;
+  text-transform: uppercase;
+  font-family: Poppins, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.info-divider {
+  background-color: #c1c1c1;
+  width: 40px;
+  height: 1px;
+}
+
+.list-fearures ul {
+  list-style: none;
+  grid-row-gap: 10px;
+  flex-direction: column;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+  padding-left: 0px !important;
+}
+.list-fearures ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.properties_list ul {
+  list-style: none;
+  grid-template-columns: 1fr  1fr;
+  width: 80%;
+  display: grid;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  padding-left: 0px !important;
+}
+.properties_list ul li {
+  grid-column-gap: 1em;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.properties_list ul li .icon {
+  width: 48px;
+}
+.info-row {
+    grid-column-gap: 4px;
+    display: flex;
+}
